@@ -5,17 +5,39 @@
 ## Table of Contents
 - [skills](#skills)
   - [Table of Contents](#table-of-contents)
+- [Skills For A Real Business using AI and Real Engineers](#skills-for-a-real-business-using-ai-and-real-engineers)
+  - [Quickstart (30-second setup)](#quickstart-30-second-setup)
   - [Overview](#overview)
   - [Skills](#skills-1)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
 
+# Skills For A Real Business using AI and Real Engineers
+
+[![skills.sh](https://skills.sh/b/mdiener21/skills)](https://skills.sh/mdiener21/skills)
+
+My agent skills that I use every day to run my real business and do real engineering.
+
+Running a real business solo is hard, and so is developing real applications is hard. You  know your process so build it and define it with an SOP (Standard Operating Procedure). The control is in your hands as you know the problem you are solving.
+
+These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience.
+
+
+## Quickstart (30-second setup)
+
+1. Run the skills.sh installer:
+
+```bash
+npx skills@latest add mdiener21/skills
+```
+
+
 ## Overview
 
 This repository hosts reusable, composable **skills** — structured instruction files that extend AI coding agents with domain-specific knowledge and workflows. Each skill lives in its own directory and follows a consistent convention: a `SKILL.md` entrypoint, optional `assets/` for templates, and `references/` for supporting material.
 
-Skills are designed to be invoked by AI agents (GitHub Copilot, Claude, etc.) when a user's request falls within the skill's domain. They encode repeatable processes, domain constraints, and quality guardrails so agents produce consistent, high-quality output.
+Skills are designed to be invoked by AI agents (GitHub Copilot, Codex, Claude, etc.) when a user's request falls within the skill's domain.
 
 ## Skills
 
