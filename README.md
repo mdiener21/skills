@@ -10,6 +10,7 @@
   - [Overview](#overview)
   - [Skills](#skills-1)
   - [Usage](#usage)
+  - [Other Productivity Skills from great authors](#other-productivity-skills-from-great-authors)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -59,6 +60,17 @@ Point your agent's instructions file at a skill's `SKILL.md`:
 **Invoking a skill at runtime:**
 
 Each skill's `SKILL.md` documents its trigger phrases and workflow. For example, the `sop` skill activates on prompts like `/sop`, `"write an SOP for..."`, or `"document this process"`.
+
+## Other Productivity Skills from great authors
+
+The following skills collection I can personally recommend as I use them.
+
+| Skill Collection | Author Github Link | Description |
+|-------|-----|-------------|
+| Real Engineering Skills | [Matt Pocock](https://github.com/mattpocock/skills/tree/main/skills) | Multiple Skills |
+|Superpowers for Engineers | [Jesse Vincent](https://github.com/obra/superpowers/tree/main/skills)  | Multiple Skills |
+
+
 
 ## Contributing
 
