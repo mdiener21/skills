@@ -7,12 +7,12 @@ updated: 2026-05-17
 
 # Write A CHANGELOG or README Skill
 
-This skill enforces consistency, structure, and quality when writing or updating project (`README.md`, `CHANGELOG.md`).
+This skill enforces consistency, structure, and quality when writing or updating a projects `README.md` or `CHANGELOG.md`
 
 ## Workflow 
 
 ### 1. `README.md` Updates
-- **Reference:** See `references/README.md` for AI structural guidelines and template.
+- **Reference:** See `references/README.md` for structural guidelines and template.
 - **Rules:** Follow the "AI INSTRUCTIONS" in the reference. Place new features under `## Features`, environment variables under `## Configuration`, and refactor details under `## Architecture & Modules`. Keep existing structure pristine. 
 
 ### 2. `CHANGELOG.md` Updates
