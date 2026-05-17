@@ -5,9 +5,9 @@ version: 1.1
 updated: 2026-05-17
 ---
 
-# Write Code Docs Skill
+# Write A CHANGELOG or README Skill
 
-This skill enforces consistency, structure, and quality when writing or updating project documentation (`README.md`, `CHANGELOG.md`, PRDs).
+This skill enforces consistency, structure, and quality when writing or updating project (`README.md`, `CHANGELOG.md`).
 
 ## Workflow 
 
@@ -25,6 +25,3 @@ Include ONLY user-facing, impactful changes.
 * ✅ **Good:** `Fixed TypeScript SDK issue causing incorrect CJS config`, `Added claim timeout extension on checkpoint writes.`
 * ❌ **Bad:** `Fixed bug` (vague), `Updated dependencies` (noise), `Refactored internal routing` (internal).
 
-### 3. PRDs / Specifications
-- Frame context clearly: 1) What is being solved? 2) Proposed architecture. 3) Metrics for success.
-- Extract details from the conversation and generalize into standard headers. Always strive for concise, declarative language.
