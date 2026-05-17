@@ -7,3 +7,7 @@ Every skill must have a reference in the top-level README.md and an entry in .cl
 Each skill entry in the top-level README.md must link the skill name to its SKILL.md.
 
 Each bucket folder has a README.md that lists every skill in the bucket with a one-line description, with the skill name linked to its SKILL.md.
+
+## Workflow
+
+Upon any changes to the repository review if the CHANGELOG or README require updates, if so make the update.
