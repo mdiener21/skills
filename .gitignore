@@ -1,0 +1,14 @@
+# Agent Code internal directories
+.agents/
+.codex/
+.opencode/
+.claude/
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
