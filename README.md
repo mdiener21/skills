@@ -45,6 +45,7 @@ Skills are designed to be invoked by AI agents (GitHub Copilot, Codex, Claude, e
 | Skill | Description |
 |-------|-------------|
 | [sop](sop/SKILL.md) | Write, create, update, maintain, and audit Standard Operating Procedures (SOPs) for humans or AI agents. |
+| [write-changelog-readme](write-changelog-readme/SKILL.md) | Creates and updates CHANGELOG, README using standard templates. Keeps them aligned |
 <!-- AI UPDATE HOOK: Add new skills above this line -->
 
 ## Usage

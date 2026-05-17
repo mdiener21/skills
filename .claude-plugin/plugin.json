@@ -1,5 +1,14 @@
 {
   "name": "mdiener21-skills",
+  "description": "A real business skill for engineers or builders",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michael Diener",
+    "url": "https://github.com/mdiener21"
+  },
+  "homepage": "https://michael-diener.com",
+  "license": "MIT",
+  "keywords": ["sop", "standard operating procedure"],
   "skills": [
     "./skills/sop"
   ]
