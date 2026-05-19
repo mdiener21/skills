@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Agents now automatically review and update CHANGELOG and README after every repository change, enforced via `AGENTS.md` workflow rules.
+
+### Changed
+- Enhanced `write-changelog-readme` README reference template with richer structural guidelines and AI instructions for consistent output.
+
+### Removed
+- Removed PRD writing from the `write-changelog-readme` skill scope
+
 ## [1.0.0] - 2026-05-17
 
 ### Added
