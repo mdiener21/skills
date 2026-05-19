@@ -2,6 +2,23 @@
 
 This file serves as a mapping and structural guide for AI (LLMs) to understand the expected format of a project's `README.md`. 
 
+## README.md Principles
+
+- Project name and one-sentence summary
+- Purpose: what problem it solves and who it is for
+- Key features
+- Technology stack
+- Installation and local setup steps
+- Configuration and required environment variables
+- Common usage examples
+- Project folder structure
+- Testing and validation commands
+- Deployment or release notes, if applicable
+- Contribution guidelines, if applicable
+- Links to deeper documentation
+
+Use clear, direct language. Avoid unnecessary jargon. Keep the README concise, practical, and accurate.
+
 **AI INSTRUCTIONS:** 
 When asked to update the project documentation after a new feature, function addition, or architectural refactor:
 1. Identify the structural blocks below in the target `README.md`.
@@ -21,6 +38,11 @@ When asked to update the project documentation after a new feature, function add
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+## Documentation
+
+Additional documentation can be placed in the `/docs` folder if applicable
 
 ## Table of Contents
 - [Overview](#overview)
@@ -29,11 +51,13 @@ When asked to update the project documentation after a new feature, function add
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
-A more robust description of the project. Explain the primary problem this tool solves. 
+This project exists to [describe the main business, technical, or user problem].
+ Explain the primary problem this tool solves. 
 *AI Note: Only update this if the fundamental purpose of the repository changes.*
 
 ## Features
@@ -45,7 +69,7 @@ Core functionality of the project.
 <!-- AI UPDATE HOOK: Add new features above this line -->
 
 ## Architecture & Modules
-An outline of the underlying technology stack, systems, and primary modules.
+An outline of the underlying technology stack, systems, and primary modules, core components.
 *AI Note: Document refactors, structural changes, or new services introduced here.*
 
 - **Frontend:** [React / Vue / etc.]
@@ -54,7 +78,7 @@ An outline of the underlying technology stack, systems, and primary modules.
 <!-- AI UPDATE HOOK: Document new core modules, design patterns, or refactor outcomes here -->
 
 ## Installation
-Step-by-step instructions on how to get the development environment running.
+Step-by-step instructions on how to get the development environment running includding requirements like npm.
 
 ```bash
 # Example
@@ -76,8 +100,12 @@ Environment variables and system configuration.
 Examples of how to use the project, including CLI commands, API requests, or UI workflows.
 *AI Note: Include new CLI flags, API endpoints (if not in a separate OpenAPI doc), or usage code snippets related to the new feature.*
 
+## Deployment
+
+Short concise overview on how the project is built and deployed, no details.
+
 ## Contributing
-Instructions on how to test and contribute to the project.
+Instructions on how to test and contribute to the project, refer to a CONTRIBUTING.md
 *AI Note: Update this if testing frameworks or linting paths are changed in a refactor.*
 
 ## License
