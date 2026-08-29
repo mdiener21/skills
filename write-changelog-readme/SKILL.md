@@ -1,6 +1,6 @@
 ---
 name: write-changelog-readme
-description: Creates and updates CHANGELOG, README using standard templates. Use when the user asks to write, update, or refactor project documentation.
+description: Creates and updates CHANGELOG, README using standard templates. Use when the user asks to write, update, or refactor project CHANGE.log or README.md-
 version: 1.1
 updated: 2026-05-17
 ---

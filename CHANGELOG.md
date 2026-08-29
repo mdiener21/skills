@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Enhanced `write-changelog-readme` README reference template with richer structural guidelines and AI instructions for consistent output.
+- Strengthened `sop` skill guidance for credential handling by requiring secret references (env vars or secret-manager paths) and prohibiting literal credential values in SOP inputs and command examples.
 
 ### Removed
 - Removed PRD writing from the `write-changelog-readme` skill scope

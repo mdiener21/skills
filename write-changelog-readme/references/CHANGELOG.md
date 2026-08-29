@@ -26,22 +26,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - YYYY-MM-DD
 ### Added
 - Initial release
+
+### Fixed
+- Fixed: bug press red button did not open modal.
 ```
 
 ## AI Editor Rules
 1. **Always** insert new entries into the `## [Unreleased]` block.
 2. Group underneath the appropriate categorization sub-headers: `### Added`, `### Changed`, `### Deprecated`, `### Removed`, `### Fixed`, `### Security`. Only use sub-headers that have entries.
 3. Keep descriptions user-facing. Strip out internal technical jargon unless it impacts the consumer.
-- Dark mode support
 
-### Fixed
-- Login crash on Safari
 
-## [1.1.0] - 2025-01-10
-...
-```
-
-Steps:
+### Steps:
 1. Insert a new blank `## [Unreleased]` section at the top (after the preamble).
 2. Convert the old `[Unreleased]` header to `## [X.Y.Z] - YYYY-MM-DD`.
 3. Keep all content exactly as-is under the new version header.
@@ -49,7 +45,7 @@ Steps:
 
 ---
 
-## When `[Unreleased]` Section Is Empty or Missing
+### When `[Unreleased]` Section Is Empty or Missing
 
 If the `[Unreleased]` section exists but has no entries, populate it from git log:
 
@@ -65,12 +61,11 @@ Then categorize commits by type using conventional commit prefixes if present:
 - `security:` → Security
 - `docs:`, `test:`, `ci:` → typically omit from user-facing changelog
 
-If no CHANGELOG.md exists at all, create one from scratch using the full structure above,
-seeding the new version section from the git log.
+If no CHANGELOG.md exists at all, create one from scratch using the full structure above, seeding the new version section from the git log.
 
 ---
 
-## Comparison Links
+### Comparison Links
 
 At the bottom of the file, maintain a list of comparison links:
 

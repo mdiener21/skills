@@ -23,7 +23,7 @@ Before writing, establish who will execute this SOP:
 
 **Human executor**: Steps can reference UI clicks, visual confirmation, and contextual judgment. Write in imperative second-person ("Open the dashboard", "Confirm the status shows green").
 
-**AI-agent executor**: Steps must be explicit and tool-specific — no "open the dashboard," instead "run `docker ps` and confirm the container is running." Reference exact commands, file paths, API endpoints, and expected output patterns. Verification checkboxes should be machine-checkable (grep for a string, check an exit code, confirm a file exists).
+**AI-agent executor**: Steps must be explicit and tool-specific — no "open the dashboard," instead "run `docker ps` and confirm the container is running." Reference exact commands, file paths, API endpoints, and expected output patterns. Verification checkboxes should be machine-checkable (grep for a string, check an exit code, confirm a file exists). Never include raw secrets in commands or examples; use environment variables or secret-manager references (for example, `${API_TOKEN}` or `aws secretsmanager get-secret-value ...`).
 
 **Both**: Many SOPs are followed by either. Write at the human level but include exact commands in code blocks where precision matters.
 
@@ -71,7 +71,7 @@ Ask targeted questions — read the user's message first, only ask about the gap
 - What triggers the process?
 
 **Ask as needed:**
-- What must be in hand before starting (credentials, files, decisions)?
+- What must be in hand before starting (credential references, files, decisions)?
 - What are the steps, in order? What does "done" look like?
 - What goes wrong most often, and how do you recover?
 
@@ -87,8 +87,8 @@ Fill in each section:
 - **Purpose**: The specific risk or problem this prevents — not generic ("ensures consistency"), but concrete ("prevents the VPS from serving stale assets after a failed FTP deploy")
 - **Scope**: Exact situations where it applies and explicit exceptions
 - **Owner**: A named role or person — never blank, never "TBD"
-- **Inputs**: Specific things needed before starting (exact credential names, file names, decisions required)
-- **Procedure**: Numbered, imperative sentences. For AI-agent SOPs, include exact commands in code blocks with expected output patterns.
+- **Inputs**: Specific things needed before starting (credential reference names such as env vars or vault paths, file names, decisions required). Never include raw secret values.
+- **Procedure**: Numbered, imperative sentences. For AI-agent SOPs, include exact commands in code blocks with expected output patterns. Commands must reference secrets indirectly (environment variables, secret files, or secret-manager lookups), never embed literal credentials.
 - **Outputs**: Observable, verifiable results — what you can check after
 - **Definition of Done**: Concrete checkboxes — each one must be independently verifiable
 - **Common Mistakes**: Real failure modes from the interview — table format with Mistake, Impact (or How to Avoid)
