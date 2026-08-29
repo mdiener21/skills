@@ -1,13 +1,13 @@
 ---
 name: write-changelog-readme
-description: Creates and updates CHANGELOG, README using standard templates. Use when the user asks to write, update, or refactor project CHANGE.log or README.md-
-version: 1.1
-updated: 2026-05-17
+description: Creates and updates CHANGELOG, README using standard templates. Use when the user asks to write, update, or refactor project CHANGE.log or README.md.
+version: 1.2
+updated: 2026-08-29
 ---
 
 # Write A CHANGELOG or README Skill
 
-This skill enforces consistency, structure, and quality when writing or updating a projects `README.md` or `CHANGELOG.md`
+This skill provides consistency, structure, and quality when writing or updating a project's `README.md` or `CHANGELOG.md`.
 
 ## Workflow 
 
@@ -19,6 +19,8 @@ This skill enforces consistency, structure, and quality when writing or updating
 - **Reference:** See `references/changelog.md` for "Keep a Changelog" conventions.
 - **Rules:** Always group new changes under the `## [Unreleased]` section.
 - Use explicit categories: `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`.
+- **Versioning:** When releasing a new version, convert the `[Unreleased]` section to `## [X.Y.Z] - YYYY-MM-DD` and create a new blank `[Unreleased]` section at the top.
+- **Content:** Keep descriptions user-facing and impactful, short and to the point. Avoid internal technical jargon unless it affects the consumer.
 
 **Tone & Framing (Changelog):**
 Include ONLY user-facing, impactful changes.

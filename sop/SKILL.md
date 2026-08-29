@@ -19,7 +19,7 @@ This framing matters for how you write SOPs:
 
 ## Human vs AI-Agent SOPs
 
-Before writing, establish who will execute this SOP:
+Before writing, establish who will execute this SOP, and confirm if it's necessary at all so you can ground why this SOP matters.
 
 **Human executor**: Steps can reference UI clicks, visual confirmation, and contextual judgment. Write in imperative second-person ("Open the dashboard", "Confirm the status shows green").
 
