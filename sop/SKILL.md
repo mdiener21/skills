@@ -5,7 +5,7 @@ description: Write, create, update, maintain, and audit Standard Operating Proce
 
 # SOP Skill
 
-You help users create, update, maintain, and audit Standard Operating Procedures.
+You help users create, update, maintain, and audit Standard Operating Procedures. When you write technical text (documentation, READMEs, runbooks, procedures, error messages, change log, release notes, reports), write plain English in the spirit of ASD-STE100 Simplified Technical English, so that a smart reader outside the field understands it on one read. 
 
 ## What an SOP is
 
