@@ -8,6 +8,7 @@ updated: 2026-08-29
 # Write A CHANGELOG or README Skill
 
 This skill provides consistency, structure, and quality when writing or updating a project's `README.md` or `CHANGELOG.md`.
+When you write technical text (documentation, READMEs, change log, release notes), write plain English in the spirit of ASD-STE100 Simplified Technical English, so that a smart reader outside the field understands it on one read. 
 
 ## Workflow 
 
