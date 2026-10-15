@@ -31,6 +31,7 @@ This repository hosts reusable, composable **skills** — structured instruction
 | Skill | Description |
 |-------|-------------|
 | [sop](sop/SKILL.md) | Write, create, update, maintain, and audit Standard Operating Procedures (SOPs) for humans or AI agents. |
+| [kpathy-logic](kpathy-logic/SKILL.md) | Behavioral guidelines to reduce common LLM coding mistakes and encourage surgical, testable changes. |
 | [write-changelog-readme](write-changelog-readme/SKILL.md) | Creates and updates CHANGELOG and README using standard Keep-a-Changelog and readme templates. |
 <!-- AI UPDATE HOOK: Add new skills above this line -->
 

@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Added the `kpathy-logic` skill to document practical guardrails for surgical, low-risk AI coding workflows.
 - Agents now automatically review and update CHANGELOG and README after every repository change, enforced via `AGENTS.md` workflow rules.
 
 ### Changed
